@@ -5,15 +5,20 @@
 header{
     text-align: center;
     position: relative;
+    
 }
  header div {
      width: 25%;
      float: left;
+     
+     background-color: black;
     
 }
  nav {
     width: 75%;
     float: right;
+    padding: 12px;
+    background-color: black;
  } 
 nav ul li {
     display: inline-block; 
@@ -37,18 +42,28 @@ section{
     position: relative;
     text-align: center;
 }
-main section div:first-child{ 
+ section div:first-child{ 
     width: 50%;
     float: left;
     margin-left: 9.5%;
 }
-main section div:last-child{
+ section div:last-child{
     width: 40%;
     float: right;
+    text-align: justify;
+    padding:0%;
 }
-
+section div:last-child p{
+   width: 50%;
+  }
+section div:last-child input{
+    border-radius: 5px;
+    width: 40%;
+}
 
 footer{
     clear: both;
+    background-color: black;
+    padding: 40px;
 }
 
