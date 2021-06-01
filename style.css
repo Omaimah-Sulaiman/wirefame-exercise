@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    position: relative;
+}
+ header div {
+     width: 25%;
+     float: left;
+    
+}
+ nav {
+    width: 75%;
+    float: right;
+ } 
+nav ul li {
+    display: inline-block; 
+    padding-left: 10%; 
+}
+main div:first-child{
+    clear: both;
+    width: 100%;
+}
+
+footer{
+    clear: both;
+}
+
