@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 header{
     text-align: center;
     position: relative;
@@ -18,10 +19,34 @@ nav ul li {
     display: inline-block; 
     padding-left: 10%; 
 }
+main{
+    text-align: center;
+    position: relative;
+}
 main div:first-child{
     clear: both;
     width: 100%;
 }
+main div:nth-child(2) img{
+ padding: 10px;
+
+
+}
+
+section{
+    position: relative;
+    text-align: center;
+}
+main section div:first-child{ 
+    width: 50%;
+    float: left;
+    margin-left: 9.5%;
+}
+main section div:last-child{
+    width: 40%;
+    float: right;
+}
+
 
 footer{
     clear: both;
